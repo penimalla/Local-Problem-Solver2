@@ -1,0 +1,19 @@
+<web-app ...>
+  <servlet>
+    <servlet-name>AddProblemServlet</servlet-name>
+    <servlet-class>com.penimalla.servlet.AddProblemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProblemServlet</servlet-name>
+    <url-pattern>/add-problem</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DashboardServlet</servlet-name>
+    <servlet-class>com.penimalla.servlet.DashboardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DashboardServlet</servlet-name>
+    <url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+</web-app>
